@@ -23,10 +23,26 @@ body {
 }
 
 #products > div {
-    width: 70%;
+    width: 80%;
     border: solid black 1px;
     min-height: 150px;
     background-color: white;
-    /*background-color: rgb(168, 168, 168); */
     margin-bottom: 10px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 10px;
+}
+
+.productImgBox {
+    position: absolute;
+    height: 150px;
+    width: 25%;
+    border: solid black 1px;
+    border-radius: 9px
+}
+
+.clickMe {
+    position: relative;
+    float:right;
+    top: 130px;
+    right: 2px;
 }
