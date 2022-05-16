@@ -5,6 +5,7 @@
     display: flex;
     flex-wrap: nowrap;
 }
+
 #nav {
     border-bottom: 2px solid black;
 }
@@ -37,7 +38,8 @@ li > a {
    width: 25px;
    height: 20px;
    vertical-align:middle;
-   padding-left: 1%;
+   margin-left: 0.5%;
+   border: 1px black solid;
 }
 
 .hovarable {
